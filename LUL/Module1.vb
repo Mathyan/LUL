@@ -5,6 +5,7 @@
         ' While Console.ReadLine() IsNot "Ne"
         'Test2()
         'End While
+
         Do While Console.ReadLine() IsNot "Ne"
             Test2()
 
@@ -13,11 +14,10 @@
 
     End Sub
     Sub Test2()
-        Dim answer As String
 
         Test(1)
-        answer = Console.ReadLine()
-        If answer = "Y" Then
+
+        If Console.ReadLine = "Y" Then
             Test(2)
         Else
             Test(3)
