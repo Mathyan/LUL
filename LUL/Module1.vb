@@ -2,9 +2,13 @@
 
     Sub Main()
 
-        While Console.ReadLine() IsNot "Ne"
+        ' While Console.ReadLine() IsNot "Ne"
+        'Test2()
+        'End While
+        Do While Console.ReadLine() IsNot "Ne"
             Test2()
-        End While
+
+        Loop
 
 
     End Sub
