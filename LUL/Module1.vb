@@ -6,10 +6,10 @@
         'Test2()
         'End While
         Try
-            Do While Console.ReadLine() IsNot "Ne"
+            Do
                 Test2()
+            Loop While Console.ReadLine() IsNot "Ne"
 
-            Loop
         Catch
 
         End Try
